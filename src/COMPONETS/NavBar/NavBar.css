@@ -1,0 +1,41 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.logo{
+    cursor: pointer;
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+
+.pages{
+    position: fixed;
+    left: 9rem;
+    color: #fff;
+    list-style: none;
+}
+
+.pages li{
+    cursor: pointer;
+    float: left;
+    padding-right: 1rem;
+}
+
+.avatar{
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+
+.gray{
+    color: gray;
+}
